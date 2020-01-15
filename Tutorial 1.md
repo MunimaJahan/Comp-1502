@@ -49,7 +49,7 @@ Adding a message is always necessary, and adding better messages will help make 
    
  ## Extra
  
-You can clone *my* main class repository which will have all of the code we generate in class. Follow the steps above, and give it the link https://github.com/MunimaJahan/MRU-COMP1502-2020_MJ.git
+You can clone *my* main class repository which will have all of the code we generate in class. Follow the steps above, and give it the link https://github.com/MunimaJahan/Comp-1502.git
  
 You can use the Team -> Pull command to regularily bring new code down from the repository.
 
