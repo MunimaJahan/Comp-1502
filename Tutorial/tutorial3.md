@@ -29,7 +29,7 @@ You have two options **step into** and **step over**. Each of these will move on
 * The **step into** button will cause eclipse to jump into any method which is called. This will always include your own code, but might also include the actual Java source (which can be confusing, but interesting).
 * The **step over** button will cause eclipse to execute any method and show the state after that method runs. This can be helpful if you have a lot of code to navigate.
 
-If you have a breakpoint set on the line ``int x = 10`` and you step over repeatedly, you will see eclipse entre the for loop and the loop variable i be incremented as the loop is repeated. Notice how any time a variable is added or changed it is highlighted in yellow. (Also note that only 1 variable is every changed at a time).
+If you have a breakpoint set on the line ``int x = 10`` and you step over repeatedly, you will see eclipse entre the for loop and the loop variable i be incremented as the loop is repeated. Notice how any time a variable is added or changed it is highlighted in yellow. (Also note that only 1 variable is changed at a time).
 
 When you get to the String, notice that eclipse shows the text of the String, but also an id number. That's because the string is an object and every object in Java gets assigned a unique number. As you step through the next loop notice that the id number of the string changes when the contents do. That's a special feature of strings in Java we'll discuss later in the course.
 
@@ -41,3 +41,4 @@ You can use this to see what variables are set to in your program and what path 
 You're welcome to continue using print lines to debug your programs after this, but expect when you ask questions that we will ask you to use the debugger to help diagnose them, and we think this will be a useful tool to help you see what your program is doing.
 
 
+(NB: Thanks to Dr. Tyson for preparing the tutorial and sharing with us)
