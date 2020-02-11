@@ -27,4 +27,7 @@ public class Circle extends Shape
    { 
       perimeter = 2 *Math.PI * radius; 
    }
+   public void setRadius(double r) {
+	   radius=r;
+   }
 }
