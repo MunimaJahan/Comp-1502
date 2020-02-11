@@ -21,5 +21,11 @@ public class ShapeTester
       c2.computeArea();
       c2.computePerimeter();
       c2.display();
+      
+      c2.setRadius(4.0);
+      c2.computeArea();
+      c2.computePerimeter();
+      c2.display();
+      s.setRadius(3.0);
    } 
 }
